@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50a0f13b-d8de-41b1-b7b5-561e992092d8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="20ce94a4" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cyM3klS8BAlqDh2u0HBOt9Ipl7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="xiaomi-mi_cc_9-20ce94a4" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.flutter_app1" />
+    <property name="DEBUGGER_ID" value="Java" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50a0f13b-d8de-41b1-b7b5-561e992092d8" name="Default Changelist" comment="" />
+      <created>1591496182379</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591496182379</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1602383292509">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser/0.23.1680.952@0.23.1680.952" timestamp="1602383292509" />
+    <state x="445" y="429" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602383553626">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="445" y="429" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1680.952@0.23.1680.952" timestamp="1602383553626" />
+    <state x="598" y="386" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1602383555781">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="598" y="386" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1680.952@0.23.1680.952" timestamp="1602383555781" />
+    <state x="603" y="210" key="#xdebugger.evaluate" timestamp="1602387725629">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="603" y="210" key="#xdebugger.evaluate/0.23.1680.952@0.23.1680.952" timestamp="1602387725629" />
+    <state x="703" y="269" width="556" height="452" key="AndroidProcessChooserDialog" timestamp="1602339677388">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="703" y="269" width="556" height="452" key="AndroidProcessChooserDialog/0.23.1680.952@0.23.1680.952" timestamp="1602339677388" />
+    <state width="1640" height="692" key="GridCell.Tab.0.bottom" timestamp="1602388485919">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1640" height="692" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1602388485919" />
+    <state width="1640" height="692" key="GridCell.Tab.0.center" timestamp="1602388485918">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1640" height="692" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1602388485918" />
+    <state width="1640" height="692" key="GridCell.Tab.0.left" timestamp="1602388485918">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1640" height="692" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1602388485918" />
+    <state width="1640" height="692" key="GridCell.Tab.0.right" timestamp="1602388485918">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state width="1640" height="692" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1602388485918" />
+    <state x="328" y="76" key="SettingsEditor" timestamp="1602391898021">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="328" y="76" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1602391898021" />
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2" timestamp="1602388606210">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="440" y="235" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1602388606210" />
+    <state x="483" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1602387897776">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="483" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1602387897776" />
+    <state x="512" y="259" width="656" height="472" key="find.popup" timestamp="1602391660921">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="512" y="259" width="656" height="472" key="find.popup/0.23.1680.952@0.23.1680.952" timestamp="1602391660921" />
+    <state x="505" y="227" key="run.anything.popup" timestamp="1602254853124">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="505" y="227" key="run.anything.popup/0.23.1680.952@0.23.1680.952" timestamp="1602254853124" />
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup" timestamp="1602391655176">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="505" y="230" width="670" height="676" key="search.everywhere.popup/0.23.1680.952@0.23.1680.952" timestamp="1602391655176" />
+  </component>
+</project>
