@@ -18,15 +18,10 @@ class MyApp extends StatefulWidget {
 
 class MyAppState extends State<MyApp> {
   CityModel cityModel;
-  int index = 0;
-  FixedExtentScrollController _scrollController = FixedExtentScrollController();
 
   @override
   void initState() {
     super.initState();
-    _scrollController.addListener(() {
-      print('--->');
-    });
     var instance = DioManager.getInstance();
     instance.get(Constant.HotCitiesByCinema, null, (data) {
       setState(() {
@@ -45,11 +40,19 @@ class MyAppState extends State<MyApp> {
   }
 }
 
-class HomePage extends StatelessWidget {
-  int index = 0;
+class HomePage extends StatefulWidget {
   CityModel cityModel;
 
   HomePage(this.cityModel);
+
+  @override
+  State<StatefulWidget> createState() {
+    return HomePageStare();
+  }
+}
+
+class HomePageStare extends State<HomePage> {
+  int index = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -69,16 +72,15 @@ class HomePage extends StatelessWidget {
                   diameterRatio: 1.1,
                   onSelectedItemChanged: (int value) {
                     index = value;
-                    print('---> index :$index');
                   },
                   itemExtent: 50,
-                  children: _getSelectedItem(cityModel),
+                  children: _getSelectedItem(widget.cityModel),
                 ),
                 RaisedButton(
                   onPressed: () {
                     Navigator.push(context,
                         MaterialPageRoute(builder: (context) {
-                      return TimesHomePage(index);
+                      return TimesHomePage(widget.cityModel.p[index].id);
                     }));
                   },
                   child: Text("跳转"),
@@ -99,7 +101,6 @@ class HomePage extends StatelessWidget {
       return widgets;
     }
     var cityList = cityModel.p;
-
     var length = cityList.length;
     for (int i = 0; i < length; i++) {
       var city = Text(cityList[i].n);

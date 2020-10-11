@@ -1,10 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutterapp/dio/constant.dart';
+import 'package:flutterapp/dio/dio_manager.dart';
 
 class TimesHomePage extends StatefulWidget {
-  int index = -1;
+  int id;
 
-  TimesHomePage(this.index);
+  TimesHomePage(this.id);
 
   @override
   State<StatefulWidget> createState() {
@@ -16,14 +18,21 @@ class TimesHomePageState extends State<TimesHomePage> {
   @override
   void initState() {
     super.initState();
-    print('==》 ${widget.index}');
+    var instance = DioManager.getInstance();
+    Map map = Map<String, String>();
+    map['locationId'] = widget.id.toString();
+    instance.get(Constant.HotPlayMovies, map, (data) {
+      print('-==> data:' + data.toString());
+    }, (e) {
+      print('--< error:');
+    });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text(widget.index.toString()),
+        child: Text(widget.id.toString()),
       ),
     );
   }
