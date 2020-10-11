@@ -9,6 +9,8 @@ class Constant{
 
   //sell_tickets 正在售票
 //  static const String  HotPlayMovies = "https://api-m.mtime.cn/PageSubArea/HotPlayMovies.api?locationId=290";
+
+  /////s/df/s/df/sdf/s/df/
   static const String  HotPlayMovies = "https://api-m.mtime.cn/PageSubArea/HotPlayMovies.api";
 
 }
