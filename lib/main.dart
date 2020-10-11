@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterapp/dio/constant.dart';
 import 'package:flutterapp/dio/dio_manager.dart';
@@ -39,10 +40,45 @@ class MyAppState extends State<MyApp> {
           title: Text("Times"),
           centerTitle: true,
         ),
-        body: Center(
-          child: Text(cityModel == null ? "城市名称" : cityModel.p[index].n),
+        body: Container(
+          child: Center(
+            child: Container(
+              width: double.infinity,
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Text("请选择城市"),
+                  CupertinoPicker(
+                    diameterRatio: 1.1,
+                    onSelectedItemChanged: (int value) {
+                      print('index : ${value}');
+                    },
+                    itemExtent: 50,
+                    children: _getSelectedItem(cityModel),
+                  )
+                ],
+              ),
+            ),
+          ),
         ),
       ),
     );
+  }
+
+  _getSelectedItem(CityModel cityModel) {
+    List<Widget> widgets = [];
+    if (cityModel == null) {
+      var text = Text("无数据");
+      widgets.add(text);
+      return widgets;
+    }
+    var cityList = cityModel.p;
+
+    var length = cityList.length;
+    for (int i = 0; i < length; i++) {
+      var city = Text(cityList[i].n);
+      widgets.add(city);
+    }
+    return widgets;
   }
 }
