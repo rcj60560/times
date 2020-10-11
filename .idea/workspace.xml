@@ -17,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="9daff596-1dd4-4fed-9884-a2d54fc761ae" />
@@ -64,16 +65,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="653" y="218" key="#com.intellij.ide.util.MemberChooser" timestamp="1602383292509">
@@ -100,26 +98,26 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="697" y="398" key="Github.ShareDialog/0.23.1680.952@0.23.1680.952" timestamp="1602392105344" />
-    <state width="1640" height="692" key="GridCell.Tab.0.bottom" timestamp="1602388485919">
+    <state width="1640" height="400" key="GridCell.Tab.0.bottom" timestamp="1602392682630">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1640" height="692" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1602388485919" />
-    <state width="1640" height="692" key="GridCell.Tab.0.center" timestamp="1602388485918">
+    <state width="1640" height="400" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1602392682630" />
+    <state width="1640" height="400" key="GridCell.Tab.0.center" timestamp="1602392682630">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1640" height="692" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1602388485918" />
-    <state width="1640" height="692" key="GridCell.Tab.0.left" timestamp="1602388485918">
+    <state width="1640" height="400" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1602392682630" />
+    <state width="1640" height="400" key="GridCell.Tab.0.left" timestamp="1602392682630">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1640" height="692" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1602388485918" />
-    <state width="1640" height="692" key="GridCell.Tab.0.right" timestamp="1602388485918">
+    <state width="1640" height="400" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1602392682630" />
+    <state width="1640" height="400" key="GridCell.Tab.0.right" timestamp="1602392682630">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1640" height="692" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1602388485918" />
-    <state x="328" y="76" key="SettingsEditor" timestamp="1602392195874">
+    <state width="1640" height="400" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1602392682630" />
+    <state x="223" y="130" key="SettingsEditor" timestamp="1602392734247">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state x="328" y="76" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1602392195874" />
+    <state x="223" y="130" key="SettingsEditor/0.23.1680.952@0.23.1680.952" timestamp="1602392734247" />
     <state x="440" y="235" key="Vcs.Push.Dialog.v2" timestamp="1602388606210">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
@@ -128,6 +126,10 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="483" y="327" key="com.intellij.ide.util.TipDialog/0.23.1680.952@0.23.1680.952" timestamp="1602387897776" />
+    <state x="616" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602392736955">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="616" y="419" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1680.952@0.23.1680.952" timestamp="1602392736955" />
     <state x="512" y="259" width="656" height="472" key="find.popup" timestamp="1602391660921">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
