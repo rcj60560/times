@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="50a0f13b-d8de-41b1-b7b5-561e992092d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/pages/times_home_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6ef696d6d1d53fcc79e62a313189667a/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/6ef696d6d1d53fcc79e62a313189667a/.filecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/6ef696d6d1d53fcc79e62a313189667a/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/6ef696d6d1d53fcc79e62a313189667a/app.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -131,22 +132,26 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="697" y="398" key="Github.ShareDialog/0.23.1680.952@0.23.1680.952" timestamp="1602392105344" />
-    <state width="1640" height="349" key="GridCell.Tab.0.bottom" timestamp="1602395368892">
+    <state width="1640" height="219" key="GridCell.Tab.0.bottom" timestamp="1602418884403">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1640" height="349" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1602395368892" />
-    <state width="1640" height="349" key="GridCell.Tab.0.center" timestamp="1602395368892">
+    <state width="1640" height="219" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1602418884403" />
+    <state width="1640" height="219" key="GridCell.Tab.0.center" timestamp="1602418884402">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1640" height="349" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1602395368892" />
-    <state width="1640" height="349" key="GridCell.Tab.0.left" timestamp="1602395368891">
+    <state width="1640" height="219" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1602418884402" />
+    <state width="1640" height="219" key="GridCell.Tab.0.left" timestamp="1602418884401">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1640" height="349" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1602395368891" />
-    <state width="1640" height="349" key="GridCell.Tab.0.right" timestamp="1602395368892">
+    <state width="1640" height="219" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1602418884401" />
+    <state width="1640" height="219" key="GridCell.Tab.0.right" timestamp="1602418884402">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
-    <state width="1640" height="349" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1602395368892" />
+    <state width="1640" height="219" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1602418884402" />
+    <state x="424" y="206" key="NewModule_or_Project.wizard" timestamp="1602404689219">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="424" y="206" key="NewModule_or_Project.wizard/0.23.1680.952@0.23.1680.952" timestamp="1602404689219" />
     <state x="223" y="130" key="SettingsEditor" timestamp="1602392734247">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
@@ -175,21 +180,5 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="505" y="230" width="670" height="676" key="search.everywhere.popup/0.23.1680.952@0.23.1680.952" timestamp="1602391655176" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/main.dart</url>
-          <line>68</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/lib/main.dart</url>
-          <line>70</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
