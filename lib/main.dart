@@ -68,13 +68,16 @@ class HomePageStare extends State<HomePage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                CupertinoPicker(
-                  diameterRatio: 1.1,
-                  onSelectedItemChanged: (int value) {
-                    index = value;
-                  },
-                  itemExtent: 50,
-                  children: _getSelectedItem(widget.cityModel),
+                Container(
+                  height: 200,
+                  child: CupertinoPicker(
+                    diameterRatio: 1.1,
+                    onSelectedItemChanged: (int value) {
+                      index = value;
+                    },
+                    itemExtent: 45,
+                    children: _getSelectedItem(widget.cityModel),
+                  ),
                 ),
                 RaisedButton(
                   onPressed: () {
