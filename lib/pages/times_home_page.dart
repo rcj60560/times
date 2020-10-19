@@ -50,7 +50,13 @@ class TimesHomePageState extends State<TimesHomePage> {
     Movies movie = movies[index];
     var img = Padding(
       padding: EdgeInsets.all(1),
-      child: Image.network(movie.img),
+      child: FadeInImage.assetNetwork(
+        placeholder: null,
+        image: movie.img,
+        width: double.infinity,
+        height: double.infinity,
+      ),
+//      child: Image.network(movie.img),
     );
     return img;
   }
